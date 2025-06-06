@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Debayan Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .streams-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .streams-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .streams-header h2 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        
+        .streams-header p {
+            color: #ccc;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .stream-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .stream-card {
+            background: #27272a;
+            border-radius: 15px;
+            padding: 2rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .stream-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .stream-icon {
+            font-size: 3rem;
+            color: #1d4ed8;
+            margin-bottom: 1rem;
+        }
+        
+        .stream-card h3 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+        
+        .stream-card p {
+            color: #ccc;
+            margin-bottom: 1.5rem;
+        }
+        
+        .stream-card .btn {
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+        </div>
+        <button class="btn" onclick="window.location.href='index.html'">
+            <i class="ri-arrow-left-line"></i> Back to Home
+        </button>
+    </nav>
+
+    <div class="streams-container">
+        <div class="streams-header">
+            <h2>My Development Streams</h2>
+            <p>Choose from my specialized development services tailored to your business needs</p>
+        </div>
+        
+        <div class="stream-cards">
+            <div class="stream-card">
+                <div class="stream-icon">
+                    <i class="ri-global-line"></i>
+                </div>
+                <h3>Website Development</h3>
+                <p>Complete website solutions from simple landing pages to complex corporate websites with CMS integration.</p>
+                <button class="btn" onclick="window.location.href='hire-form.html'">Get Started</button>
+            </div>
+            
+            <div class="stream-card">
+                <div class="stream-icon">
+                    <i class="ri-shopping-cart-2-line"></i>
+                </div>
+                <h3>E-Commerce Solutions</h3>
+                <p>Online stores with payment gateways, inventory management, and mobile-responsive designs.</p>
+                <button class="btn" onclick="window.location.href='hire-form.html'">Get Started</button>
+            </div>
+            
+            <div class="stream-card">
+                <div class="stream-icon">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+                <h3>Web Applications</h3>
+                <p>Custom web apps with user authentication, database integration, and API connections.</p>
+                <button class="btn" onclick="window.location.href='hire-form.html'">Get Started</button>
+            </div>
+            
+            <div class="stream-card">
+                <div class="stream-icon">
+                    <i class="ri-smartphone-line"></i>
+                </div>
+                <h3>Mobile-First Websites</h3>
+                <p>Websites designed primarily for mobile users with progressive enhancement for desktop.</p>
+                <button class="btn" onclick="window.location.href='hire-form.html'">Get Started</button>
+            </div>
+            
+            <div class="stream-card">
+                <div class="stream-icon">
+                    <i class="ri-paint-brush-line"></i>
+                </div>
+                <h3>Website Redesign</h3>
+                <p>Modernize your existing website with improved UX/UI and better performance.</p>
+                <button class="btn" onclick="window.location.href='hire-form.html'">Get Started</button>
+            </div>
+            
+            <div class="stream-card">
+                <div class="stream-icon">
+                    <i class="ri-customer-service-2-line"></i>
+                </div>
+                <h3>Consultation</h3>
+                <p>Technical advice and planning for your web project before development begins.</p>
+                <button class="btn" onclick="window.location.href='hire-form.html'">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
